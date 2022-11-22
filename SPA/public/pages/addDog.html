@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script src="/JS/helperFunction.js"></script>
+
+    <script src="/JS/addHandler.js"></script>
+    <title>Add Dog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <main>
+      <div id="smallMenu">
+        <a href="/"><button>Back to home</button></a>
+        <a href="/pages/allDogs.html"><button>Get all dogs</button></a>
+        <a href="/pages/oneDog.html"><button>Get one dog</button></a>
+        <a href="/pages/updateDog.html"><button>Update a dog</button></a>
+        <a href="/pages/removeDog.html"><button>Delete a dog</button></a>
+      </div>
+      <h1>Add new Dog</h1>
+      <div class="fields">
+        <label>Number: <input type="number" id="number" /></label>
+      </div>
+      <div class="fields">
+        <label>Name: <input type="text" id="name" /></label>
+      </div>
+      <div class="fields">
+        <label>Breed: <input type="text" id="breed" /></label>
+      </div>
+      <div class="fields">
+        <label>Length: <input type="text" id="length" /></label>
+      </div>
+      <div class="fields">
+        <label>Weight in kilograms: <input type="number" id="weight" /></label>
+      </div>
+      <button id="submit" class="submit">Submit</button>
+      <div id="messageArea"></div>
+    </main>
+  </body>
+</html>

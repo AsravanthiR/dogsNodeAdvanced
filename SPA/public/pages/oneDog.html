@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script src="/JS/helperFunction.js"></script>
+
+    <script src="/JS/getOneHandler.js"></script>
+
+    <title>One dog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="smallMenu">
+        <a href="/"><button>Back to home</button></a>
+        <a href="/pages/allDogs.html"><button>Get all dogs</button></a>
+        <a href="/pages/addDog.html"><button>Add a dog</button></a>
+        <a href="/pages/updateDog.html"><button>Update a dog</button></a>
+        <a href="/pages/removeDog.html"><button>Delete a dog</button></a>
+      </div>
+      <h1>Get an information of one dog</h1>
+      <div id="inputArea">
+        <label>Number of the dog: <input type="number" id="number" /></label>
+        <button id="submit">Submit</button>
+      </div>
+      <div id="resultArea"></div>
+      <div id="messageArea"></div>
+    </main>
+  </body>
+</html>

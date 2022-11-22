@@ -1,0 +1,8 @@
+{
+  "getAll": "select number, name, breed, length, weightKg from dog",
+  "get": "select number, name, breed, length, weightKg from dog where number=?",
+  "insert": "insert into dog (number, name, breed, length, weightKg) values(?,?,?,?,?)",
+  "update": "update dog set name=?, breed=?, length=?, weightKg=? where number=?",
+  "remove": "delete from dog where number=?",
+  "primarykey": "number"
+}

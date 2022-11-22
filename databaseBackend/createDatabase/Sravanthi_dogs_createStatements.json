@@ -1,0 +1,28 @@
+{
+  "host": "localhost",
+  "port": 3306,
+  "admin": "root",
+  "adminpassword": "passworld",
+  "user": "luke",
+  "userpassword": "9DR8diKr",
+  "dropUser": true,
+  "debug": true,
+  "database": "dogdb",
+  "tables": [
+    {
+      "tableName": "dog",
+      "columns": [
+        "number integer not null primary key",
+        "name varchar(42) not null",
+        "breed varchar(20) not null",
+        "length integer not null",
+        "weightKg integer not null"
+      ],
+      "data": [
+        [5, "Oscar", "Bulldog", 30, 25],
+        [4, "Tommy", "Poodle", 45, 28],
+        [3, "Mickey", "Chihuahua", 20, 2]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All computers</title>
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script src="/JS/getAllHandler.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="allDogsWrapper">
+        <div id="menu">
+          <a href="/"><button>Back to home</button></a>
+          <a href="/pages/oneDog.html"><button>Get one dog</button></a>
+          <a href="/pages/addDog.html"><button>Add a dog</button></a>
+          <a href="/pages/updateDog.html"><button>Update a dog</button></a>
+          <a href="/pages/removeDog.html"><button>Delete a dog</button></a>
+        </div>
+        <h1>All dogs</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Breed</th>
+              <th>Length</th>
+              <th>Weight in kilograms</th>
+            </tr>
+          </thead>
+          <tbody id="results"></tbody>
+        </table>
+        <div id="errorMessage"></div>
+      </div>
+    </main>
+  </body>
+</html>
